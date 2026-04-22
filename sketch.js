@@ -20,7 +20,7 @@ function preload() {
   soundFormats('mp3');
   
   handImg = loadImage("hand.png");
-  fretboardImg = loadImage("fretboard.png");
+  fretboardImg = loadImage("fretboard.jpg");
 
   // Acoustic sounds
   sounds.C = loadSound("sounds/c.mp3");
