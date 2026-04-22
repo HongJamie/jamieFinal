@@ -17,8 +17,19 @@ let handImg;
 let fretboardImg;
 
 function preload() {
+  soundFormats('mp3');
+
   handImg = loadImage("hand.png");
   fretboardImg = loadImage("fretboard.jpg");
+
+  sounds.C = loadSound("sounds/c.mp3");
+  sounds.G = loadSound("sounds/g.mp3");
+  sounds.D = loadSound("sounds/d.mp3");
+  sounds.Em = loadSound("sounds/em.mp3");
+  sounds.Am = loadSound("sounds/am.mp3");
+  sounds.E = loadSound("sounds/e.mp3");
+  sounds.A = loadSound("sounds/a.mp3");
+  sounds.F = loadSound("sounds/f.mp3");
 }
 
 function setup() {
