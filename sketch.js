@@ -17,7 +17,6 @@ let handImg;
 let fretboardImg;
 
 function preload() {
-  function preload() {
   handImg = loadImage("hand.png");
   fretboardImg = loadImage("fretboard.jpg");
 }
