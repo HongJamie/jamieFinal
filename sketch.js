@@ -18,10 +18,11 @@ let fretboardImg;
 
 function preload() {
   soundFormats('mp3');
-
+  
   handImg = loadImage("hand.png");
   fretboardImg = loadImage("fretboard.jpg");
 
+  // Acoustic sounds
   sounds.C = loadSound("sounds/c.mp3");
   sounds.G = loadSound("sounds/g.mp3");
   sounds.D = loadSound("sounds/d.mp3");
@@ -30,6 +31,14 @@ function preload() {
   sounds.E = loadSound("sounds/e.mp3");
   sounds.A = loadSound("sounds/a.mp3");
   sounds.F = loadSound("sounds/f.mp3");
+  
+  // Electric sounds
+  electricSounds.D1 = loadSound("electricSounds/d1.mp3");
+  electricSounds.E5 = loadSound("electricSounds/e5.mp3");
+  electricSounds.F5 = loadSound("electricSounds/f5.mp3");
+  electricSounds.G5 = loadSound("electricSounds/g5.mp3");
+  electricSounds.A5 = loadSound("electricSounds/a5.mp3");
+  electricSounds.C2 = loadSound("electricSounds/c2.mp3");
 }
 
 function setup() {
